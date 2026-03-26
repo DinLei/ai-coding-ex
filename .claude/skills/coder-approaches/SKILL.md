@@ -22,6 +22,12 @@ Use this skill to compare multiple solution strategies before implementation.
 - If a brute-force approach is relevant, include it briefly as a baseline
 - If only one practical solution exists, say so explicitly instead of forcing weak alternatives
 
+## Language Handling
+- Keep analysis language-neutral by default
+- If the user specifies a language, only include language-specific considerations when relevant
+- When mentioning data structures, optionally map to:
+  - Python / C++ / Java equivalents if helpful
+
 ## Output format
 
 ### 1. Candidate Approaches

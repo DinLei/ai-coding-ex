@@ -24,6 +24,12 @@ Use when the user does not know the concept at all.
 - Do not write a full problem solution unless the user explicitly asks
 - Small pseudocode-like descriptions are okay only if necessary, but avoid full implementation
 
+## Language Handling
+- Keep analysis language-neutral by default
+- If the user specifies a language, only include language-specific considerations when relevant
+- When mentioning data structures, optionally map to:
+  - Python / C++ / Java equivalents if helpful
+
 ## Output format
 
 ### 1. What It Is

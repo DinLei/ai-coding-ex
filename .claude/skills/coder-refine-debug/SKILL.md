@@ -24,7 +24,15 @@ Use this skill when an existing solution needs to be corrected or adjusted.
   - data structure misuse
   - complexity issue
   - misunderstanding of problem requirements
+  - algorithmic bugs
+  - language-specific bugs
 - If a full redesign is needed, state that clearly and explain why
+
+## Language Handling
+- Default language: Python
+- If the user specifies a language (e.g., C++, Java), follow that language strictly
+- If a language has been specified earlier in the conversation, continue using it
+- If unclear, ask or default to Python
 
 ## Output format
 

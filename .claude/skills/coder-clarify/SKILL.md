@@ -23,6 +23,12 @@ Use this skill to clarify and deconstruct a coding interview problem before disc
 - If the prompt is incomplete, explicitly call out what is missing
 - If constraints are absent, infer reasonable possibilities and label them clearly as assumptions
 
+## Language Handling
+- Keep analysis language-neutral by default
+- If the user specifies a language, only include language-specific considerations when relevant
+- When mentioning data structures, optionally map to:
+  - Python / C++ / Java equivalents if helpful
+
 ## Output format
 
 ### 1. Core Problem

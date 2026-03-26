@@ -22,6 +22,17 @@ Use this skill to assess an existing solution rather than rewrite it immediately
 - Be specific about failure modes
 - If the code is incomplete, assess the intended logic as far as possible
 
+## Language Handling
+- Default language: Python
+- If the user specifies a language (e.g., C++, Java), follow that language strictly
+- If a language has been specified earlier in the conversation, continue using it
+- If unclear, ask or default to Python
+
+## Language-Specific Risks
+- Python: recursion depth, slicing overhead, mutability
+- C++: overflow, references, memory issues
+- Java: null pointers, object vs primitive, collections behavior
+
 ## Output format
 
 ### 1. Correctness Check

@@ -21,6 +21,12 @@ Use this skill after a solution approach has been chosen but before code is writ
 - Name the critical data structures and variables conceptually
 - If there are multiple valid plan shapes, choose the cleanest interview-safe one
 
+## Language Handling
+- Keep analysis language-neutral by default
+- If the user specifies a language, only include language-specific considerations when relevant
+- When mentioning data structures, optionally map to:
+  - Python / C++ / Java equivalents if helpful
+
 ## Output format
 
 ### 1. Chosen Strategy
@@ -47,3 +53,5 @@ List the tricky parts to pay attention to while coding.
 ## Style
 - Focus on turning theory into an implementation-ready plan
 - Keep it interview-oriented and operational
+- Prefer abstract algorithm descriptions
+- If data structures are mentioned, include language mappings where useful
